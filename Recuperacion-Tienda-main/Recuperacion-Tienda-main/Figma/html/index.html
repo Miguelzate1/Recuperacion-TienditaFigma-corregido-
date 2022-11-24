@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="glider.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css">
+    <link rel="stylesheet" href="../style/style.css">
+    <script src="https://kit.fontawesome.com/ac032783fa.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1><em>Tiendita</em></h1>
+        <div class="lugaryCompras">
+            <i class="fa-solid fa-location-dot"></i>
+            <button id="abrirLugar">
+                <div id="itemsLugarCompra"></div>
+                <template id="ubicacion">
+                    <h3></h3>
+                </template>
+            </button>
+            <button class="botonCompra"><i class="fa-solid fa-cart-shopping"></i> <p id="contarClick" class="btn"></p>
+               
+                    
+                
+            </button>
+        </div>
+    </header>
+    <div class="titulo">
+        <h1>¡Adquiere todos tus productos favoritos al mejor precio!</h1>
+    </div>
+    <div class="franja">
+        <h2>Ofertas</h2>
+        <div class="lineaProductos" id="lineaProductos1">
+            <div class="elementoCarrusel">
+                <div class="descuento">32% dto.</div>
+                <img src="../assets/Carrusel 1/limones.jpg" alt="Limones">
+                <p class="precio"><b>$26.82/kg</b><del style="color: grey; margin-left:4px ;">$39.9/kg</del></p>
+                <p class="descripción">Limon con semilla</p>
+                <button class="btn-agregar" id="btnClick">Agregar</button>
+            </div>
+            <div class="elementoCarrusel">
+                <div class="descuento">32% dto.</div>
+                <img src="../assets/Carrusel 1/tomates.png" alt="">
+                <p class="precio"><b>$21.79/kg</b><del style="color: grey; margin-left:4px ;">$32.9/kg</del></p>
+                <p class="descripción">Tomate</p>
+                <button class="btn-agregar" id="btnClick1">Agregar</button>
+            </div>
+            <div class="elementoCarrusel">
+                <div class="descuento">18% dto.</div>
+                <img src="../assets/Carrusel 1/aguacate.webp" alt="Aguacates">
+                <p class="precio"><b>$56.8/kg</b><del style="color: grey; margin-left:4px ;">$69.9/kg</del></p>
+                <p class="descripción">Aguacate Hass</p>
+                <button class="btn-agregar" id="btnClick2">Agregar</button>
+            </div>
+            <div class="elementoCarrusel">
+                <div class="descuento">13%</div>
+                <img src="../assets/Carrusel 1/nopal.png" alt="">
+                <p class="precio"><b>$25.8/kg</b><del style="color: grey; margin-left:4px ;">$29.9/kg</del></p>
+                <p class="descripción">Nopal limpio</p>
+                <button class="btn-agregar" id="btnClick3">Agregar</button>
+            </div>
+            <div class="elementoCarrusel">
+                <div class="descuento">8$ dto.</div>
+                <img src="../assets/Carrusel 1/tomateVerde.png" alt="">
+                <p class="precio"><b>$22.89/kg</b><del style="color: grey; margin-left:4px ;">$24.9/kg</del></p>
+                <p class="descripción">Tomate verde sin cascara</p>
+                <button class="btn-agregar" id="btnClick4">Agregar</button>
+            </div>
+            <div class="elementoCarrusel">
+                <div class="descuento">7% dto.</div>
+                <img src="../assets/Carrusel 1/Coca-ColaSinAzucar.webp" alt="">
+                <p class="precio"><b>$26/kg</b><del style="color: grey; margin-left:4px ;">$28/kg</del></p>
+                <p class="descripción">Coca-Cola Sin Azucar</p>
+                <button class="btn-agregar" id="btnClick5">Agregar</button>
+            </div>
+            <div class="elementoCarrusel">
+                <div class="descuento">7% dto.</div>
+                <img src="../assets/Carrusel 1/Coca-Cola.png" alt="">
+                <p class="precio"><b>$56.8/kg</b><del style="color: grey; margin-left:4px ;">$69.9/kg</del></p>
+                <p class="descripción">Coca-Cola</p>
+                <button class="btn-agregar" id="btnClick6">Agregar</button>
+            </div>
+        </div>
+    </div>
+    <div class="franja">
+        <h2>Los más Populares</h2>
+        <div class="lineaProductos" id="lineaProductos2">
+            <div class="elementoCarrusel">
+                <img src="../assets/Carrusel 2/pechuga.webp" alt="">
+                <p class="precio"><b>$62.5</b></p>
+                <p class="descripción">San Rafael pechuga de pavo</p>
+                <p class="gramos" style="color: grey;">250 g ($0.25/gr)</p>
+                <button class="btn-agregar" id="btnClick7">Agregar</button>
+            </div>
+            <div class="elementoCarrusel">
+                <img src="../assets/Carrusel 2/PanBimbo.png" alt="">
+                <p class="precio"><b>$38.9</b></p>
+                <p class="descripción">Bimbo Pan Blanco Grande</p>
+                <p class="gramos" style="color: grey;">680 g ($0.6/gr)</p>
+                <button class="btn-agregar" id="btnClick8">Agregar</button>
+            </div>
+            <div class="elementoCarrusel">
+                <img src="../assets/Carrusel 2/Mayonesa.png" alt="">
+                <p class="precio"><b>$48.5</b></p>
+                <p class="descripción">Mc Cormick Mayonesa</p>
+                <p class="gramos" style="color: grey;">507 g ($0.1/gr)</p>
+                <button class="btn-agregar" id="btnClick9">Agregar</button>
+            </div>
+            <div class="elementoCarrusel">
+                <img src="../assets/Carrusel 2/Colgate.jpg" alt="">
+                <p class="precio"><b>$35.5</b></p>
+                <p class="descripción">Colgate Pasta Dental Triple Familiar 2 U</p>
+                <p class="gramos" style="color: grey;">125 ml ($0.28/ml)</p>
+                <button class="btn-agregar" id="btnClick10">Agregar</button>
+            </div>
+            <div class="elementoCarrusel">
+                <img src="../assets/Carrusel 2/Huevos.png" alt="">
+                <p class="precio"><b>$37.5</b></p>
+                <p class="descripción">Huevos San Juan</p>
+                <p class="gramos" style="color: grey;">18 Und ($2.08/u)</p>
+                <button class="btn-agregar" id="btnClick11">Agregar</button>
+            </div>
+            <div class="elementoCarrusel">
+                <img src="../assets/Carrusel 2/fabulosos.png" alt="">
+                <p class="precio"><b>$26/kg</b><del style="color: grey; margin-left:4px ;">$28/kg</del></p>
+                <p class="descripción">Fabuloso Limpiador Antibacterial</p>
+                <p class="gramos" style="color: grey;">2 L ($18.95/l)</p>
+                <button class="btn-agregar" id="btnClick12">Agregar</button>
+            </div>
+            <div class="elementoCarrusel">
+                <div class="descuento">7% dto.</div>
+                <img src="../assets/Carrusel 1/Coca-Cola.png" alt="">
+                <p class="precio"><b>$56.8/kg</b><del style="color: grey; margin-left:4px ;">$69.9/kg</del></p>
+                <p class="descripción">Coca-Cola</p>
+                <button class="btn-agregar" id="btnClick13">Agregar</button>
+            </div>
+        </div>
+    </div>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.js"></script>
+    <script src="../script/numeroCompras.js" ></script>
+    <script src="../script/carruselProductos.js"></script>
+    <script src="../script/lugarCompra.js"></script>
+    <script src="../script/script.js"></script>
+    <script src="../script/"></script>
+</body>
+
+</html>

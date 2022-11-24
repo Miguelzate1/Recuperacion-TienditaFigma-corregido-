@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@601&display=swap');
+
+body{
+    background-color:#f2f2f2;
+    padding:0px;
+    margin: 0px;
+    font-family: 'Alexandria', sans-serif;
+}
+
+.mostrar{
+    pointer-events: auto;
+    opacity: 1;
+}
+
+button{
+    cursor:pointer;
+}
+.btn-comprar{
+    background-color: rgb(52, 179, 52);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 24px;
+    margin-bottom: 30px;        
+    margin-top: 30px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: none;
+}
+
+.btn-comprar:hover{
+    background-color: black;
+    transform: translateY(-2px);
+
+}
+section{
+background: #EEEE;
+}
+.btn-agregar{
+    align-items: center;
+    padding: 12px 24px;
+    gap: 10px;
+    width: 195px;
+    height: 40px;
+    background-color: #0AC763;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+header{
+    width: 99vw;
+    height:85px;
+    background-color:white;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+}
+
+header h1{
+    font-family: 'Alexandria', sans-serif;
+    color: rgb(255, 83, 15);
+    font-size: 23px;
+    margin: 0px;
+    padding: 0px 40px;
+}
+
+header .lugaryCompras{
+    width:100%;
+    display: flex;
+    justify-content:end;
+    align-items: center;
+    font-family: 'Alexandria', sans-serif;
+}
+
+header .fa-location-dot{
+    margin-right: 6px;
+}
+
+header a{
+    cursor: pointer;
+}
+
+header .botonCompra{
+    background-color: #82CD47;
+    border: 0px;
+    border-radius: 10px;
+    width: 80px;
+    height: 40px;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    color: white;
+    font-size:15px;
+    cursor: pointer;
+}
+
+header .fa-location-dot{
+    color: rgb(255, 83, 15);
+    font-size: 20px;
+}
+
+header .fa-cart-shopping{
+    color: white;
+    font-size: 25px;
+    margin-right: 6px;
+}
+
+header #abrirLugar{
+    background-color:white;
+    border:0;
+}
+
+
+
+.preguntarLugar{
+    width:100vw;
+    height: 100vh;
+    background-color: #b8adad;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    opacity:0;
+}
+
+.preguntarLugar #cerrar{
+    font-size: 35px;
+    color: black;
+}
+
+.preguntarLugar .formularioLugar{
+    width:800px;
+    height:300px;
+    background-color: white;
+    font-family: 'Alexandria', sans-serif;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    position: fixed;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    outline: 0;
+    box-shadow: none;
+    border: 1px solid black;
+}
+
+select::-ms-expand{
+    display:none;
+}
+
+
+
+.titulo{
+    width:90%;
+    height: 300px;
+    background-image: url(../assets/fondoPrincipal.webp);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Alexandria', sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    border-radius: 20px;
+    margin:50px 70px;
+}
+
+
+.franja{
+    width:88%;
+    margin: 50px 70px;
+    background-color:white;
+    border-radius:10px;
+    padding-left: 40px;
+    padding-top: 40px;
+    
+    height: 560px;
+
+}
+
+
+
+
+.elementoCarrusel{
+    margin: 30px;
+    width: 300px;
+}
+
+.elementoCarrusel img{
+    width:200px;
+    height: 200px;
+}
+
+.elementoCarrusel .descuento{
+    display: flex;
+    justify-content:center;
+    background-color: #9e80fa80;
+    width: 70px;
+    border-radius: 10px;
+    font-size: 13px;
+    color: #401f8b;
+}
+
+.elementoCarrusel button{
+    color: white;
+    background-color: #82CD47;
+    border: 0;
+    border-radius: 10px;
+    margin: 10px;
+    width:180px;
+    height:40px;
+}
+
+.btn{
+    color: white;
+}
+
+.btn-comprar{
+    background-color: rgb(52, 179, 52);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 24px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: none;
+}
+
+.btn-comprar:hover{
+    background-color: black;
+    transform: translateY(-2px);
+}
+
+p{
+    display: flex;
+    flex-direction: row;
+}
+
+.btn-agregar{
+    align-items: center;
+    padding: 12px 24px;
+    gap: 10px;
+    width: 195px;
+    height: 40px;
+    background-color: #0AC763;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
